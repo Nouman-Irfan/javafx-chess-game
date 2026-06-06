@@ -25,7 +25,6 @@ import java.util.Objects;
  * =========================================================
  *  CHESS GAME – JavaFX/GUI
  *  Original Authors: Muhammad Nouman 
- *                    Aqsa Ismail    
  * =========================================================
  *
  *  All original rules faithfully preserved:
@@ -186,7 +185,7 @@ public class Main extends Application
         title.setFont(Font.font("Georgia", FontWeight.BOLD, 22));
         title.setTextFill(Color.web("#e2b96f"));
 
-        Label credits = new Label("  —  Muhammad Nouman  &  Aqsa Ismail");
+        Label credits = new Label("  —  Muhammad Nouman");
         credits.setFont(Font.font("Georgia", 11));
         credits.setTextFill(Color.web("#7777aa"));
 
