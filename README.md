@@ -1,5 +1,3 @@
-# JavaFX-Chess-Game
-♟️ A modern Java-based Chess Game featuring complete chess mechanics, move validation, turn-based gameplay, and interactive board logic. Built using object-oriented programming principles with a focus on clean architecture, game logic, and strategic gameplay. 🚀
 <div align="center">
 
 # ♟️ JavaFX Chess Game
@@ -36,6 +34,16 @@
 </div>
 
 ---
+
+<div align="center">
+
+## ⚡ Professional Desktop Chess Experience
+
+Built using Java, JavaFX, and Object-Oriented Programming principles.
+
+---
+
+</div>
 
 # 🌟 Project Highlights
 
@@ -130,7 +138,7 @@
 
 # 📂 Project Structure
 
-```txt id="vtr7za"
+```txt
 JavaFX-Chess-Game/
 │
 ├── src/
@@ -191,12 +199,13 @@ Download JavaFX SDK from:
 https://gluonhq.com/products/javafx/
 
 After downloading:
+
 1️⃣ Extract the folder
 2️⃣ Remember the JavaFX SDK location
 
 Example:
 
-```txt id="dffl9g"
+```txt
 C:\javafx-sdk-24
 ```
 
@@ -206,7 +215,7 @@ C:\javafx-sdk-24
 
 ## 1️⃣ Open Project Structure
 
-```txt id="v4l0eg"
+```txt
 File → Project Structure
 ```
 
@@ -216,13 +225,13 @@ File → Project Structure
 
 Go to:
 
-```txt id="jlwmr7"
+```txt
 Libraries → + → Java
 ```
 
 Select:
 
-```txt id="92sm5x"
+```txt
 javafx-sdk-24/lib
 ```
 
@@ -234,19 +243,19 @@ Press OK ✅
 
 Go to:
 
-```txt id="nd4r2z"
+```txt
 Run → Edit Configurations
 ```
 
 Inside **VM Options**, paste:
 
-```txt id="i08xci"
+```txt
 --module-path "YOUR_JAVAFX_LIB_PATH" --add-modules javafx.controls,javafx.fxml
 ```
 
 Example:
 
-```txt id="cjlwm6"
+```txt
 --module-path "C:\javafx-sdk-24\lib" --add-modules javafx.controls,javafx.fxml
 ```
 
@@ -256,7 +265,7 @@ Example:
 
 ⚠️ All images and assets MUST remain inside:
 
-```txt id="qwb8y2"
+```txt
 src/ASSETS/
 ```
 
@@ -266,13 +275,13 @@ src/ASSETS/
 
 Store all chess piece PNG files inside:
 
-```txt id="1fp7n6"
+```txt
 src/ASSETS/pieces/
 ```
 
 Required files:
 
-```txt id="r4l72w"
+```txt
 wp.png
 wr.png
 wn.png
@@ -294,13 +303,13 @@ bk.png
 
 Store game result images inside:
 
-```txt id="e6j9im"
+```txt
 src/ASSETS/game_end/
 ```
 
 Required files:
 
-```txt id="od7xjx"
+```txt
 white_wins.png
 black_wins.png
 draw.png
@@ -312,9 +321,11 @@ draw.png
 
 Board image location:
 
-```txt id="z7s5b9"
+```txt
 src/ASSETS/board.png
 ```
+
+⚠️ Do NOT rename asset files unless updating image paths in code.
 
 ---
 
@@ -322,7 +333,7 @@ src/ASSETS/board.png
 
 ## 📥 Clone Repository
 
-```bash id="x2w2u7"
+```bash
 git clone https://github.com/Nouman-Irfan/JavaFX-Chess-Game.git
 ```
 
